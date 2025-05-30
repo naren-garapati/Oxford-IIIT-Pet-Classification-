@@ -12,6 +12,7 @@ Image classification, particularly for fine-grained tasks like breed identificat
 - The model is trained using RGB images resized to 224×224 pixels.
 - A custom PyTorch `Dataset` class handles image loading and preprocessing.
 - Key deep learning techniques such as Batch Normalization, Dropout, and ReLU activations are used to improve performance.
+- Two files, one utilizing PyTorch and the other Tensorflow
 
 ---
 
@@ -55,4 +56,6 @@ def __getitem__(self, idx):
     if self.transform:
         image = self.transform(image)
     return image, label
+
+
 
