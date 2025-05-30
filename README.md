@@ -2,6 +2,8 @@
 
 This project aims to classify pet images into one of 37 distinct breeds using a custom-built Convolutional Neural Network (CNN) implemented in PyTorch. The notebook demonstrates the complete deep learning workflow: model definition, dataset creation, training, and evaluation.
 
+This was a project part of Drexel University's Applied ML classby Naren Garapati and Valentina Ozornina, both Data Science majors. 
+
 ---
 
 ## 📌 Project Overview
